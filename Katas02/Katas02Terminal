@@ -1,0 +1,23 @@
+Last login: Sat Jan 29 16:12:31 on console
+MacBook-Pro:~ MACIAS$ python3 -m venv env
+MacBook-Pro:~ MACIAS$ source env/bin/activate
+(env) MacBook-Pro:~ MACIAS$ pip freeze
+(env) MacBook-Pro:~ MACIAS$ pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the '/Users/MACIAS/env/bin/python3 -m pip install --upgrade pip' command.
+(env) MacBook-Pro:~ MACIAS$ pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+(env) MacBook-Pro:~ MACIAS$ deactivate
+MacBook-Pro:~ MACIAS$ 
+
+
+
+
+
